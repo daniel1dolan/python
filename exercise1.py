@@ -67,10 +67,10 @@
 #     print(" " * (n-i-1) + "*" * (2*i+1))
 
 #6 Multiplication Table
-for i in range(1, 11):
-    for n in range(1,11):
-        result = i * n
-        print(str(i) + " " + "X" + " " + str(n) + " = " + str(result))
+# for i in range(1, 11):
+#     for n in range(1,11):
+#         result = i * n
+#         print(str(i) + " " + "X" + " " + str(n) + " = " + str(result))
         
 
     
