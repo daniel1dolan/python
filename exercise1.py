@@ -43,5 +43,34 @@
 # print("Amount per person: $" + "%.2f" % amt_per_person)
 
 #3 Coins
-coins = 0
-while 
+# coins = 0
+# while True:
+#     print(f"You have {coins} coins.")
+#     response = input("Do you want another?")
+#     if response.lower() == "yes":
+#         coins += 1
+#     if response.lower() == "no":
+#         print("Bye, have a beautiful time.")
+#         break
+
+#4 Box
+# width = int(input("Width?"))
+# height = int(input("Height?"))
+# print("*" * width)
+# for i in range((height - 2)):
+#     print("*" + " " * (width - 2) + "*")
+# print("*" * width)
+
+#5 Triangle
+# n = 7
+# for i in range(n):
+#     print(" " * (n-i-1) + "*" * (2*i+1))
+
+#6 Multiplication Table
+for i in range(1, 11):
+    for n in range(1,11):
+        result = i * n
+        print(str(i) + " " + "X" + " " + str(n) + " = " + str(result))
+        
+
+    
