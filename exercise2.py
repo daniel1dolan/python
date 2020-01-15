@@ -50,14 +50,29 @@
 # print(new_list)
 
 #5 Leetspeak
-shakespeare = """All that glitters is not gold
-Fair is foul, and foul is fair: Hover through the fog and filthy air.
-Life ... is a tale Told by an idiot, full of sound and fury, Signifying nothing."""
-shake_upper = shakespeare.upper()
+# shakespeare = """All that glitters is not gold
+# Fair is foul, and foul is fair: Hover through the fog and filthy air.
+# Life ... is a tale Told by an idiot, full of sound and fury, Signifying nothing."""
+# shake_upper = shakespeare.upper()
+# shake_list = list(shake_upper)
+# leet_shake = []
+
+# leet = {"A" : "4", "E" : "3", "G" : "6", "I" : "1", "O" : "0", "S" : "5", "T" : "7"}
+# for letter in shake_upper:
+#     if letter in leet:
+#         letter = leet[letter]
+#         leet_shake.append(letter)
+#     else:
+#         leet_shake.append(letter)
+# final = "".join(leet_shake).lower()
+# print(final)
 
 
-for letters in shake_upper:
-    if letters == A or E or G or I or O or S or T:
+
+
+    
+
+
 
 
 
