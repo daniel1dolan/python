@@ -42,12 +42,22 @@
 # print(result_list)
 
 #4 De-dup
-list1 = [1, 1, 2, 3, 4, 4, 5, 5, 6, 7, 7, 8]
-new_list = []
+# list1 = [1, 1, 2, 3, 4, 4, 5, 5, 6, 7, 7, 8]
+# new_list = []
+# for i in list1:
+#     if i not in new_list:
+#         new_list.append(i)
+# print(new_list)
 
-for i in list1:
-    if i not in new_list:
-        new_list.append(i)
-print(new_list)
+#5 Leetspeak
+shakespeare = """All that glitters is not gold
+Fair is foul, and foul is fair: Hover through the fog and filthy air.
+Life ... is a tale Told by an idiot, full of sound and fury, Signifying nothing."""
+shake_upper = shakespeare.upper()
+
+
+for letters in shake_upper:
+    if letters == A or E or G or I or O or S or T:
+
 
 
