@@ -47,9 +47,9 @@
 # while True:
 #     print(f"You have {coins} coins.")
 #     response = input("Do you want another?")
-#     if response.lower() == "yes":
+#     if response.lower() == "yes" or "y":
 #         coins += 1
-#     if response.lower() == "no":
+#     if response.lower() == "no" or "n":
 #         print("Bye, have a beautiful time.")
 #         break
 
