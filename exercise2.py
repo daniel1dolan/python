@@ -78,20 +78,27 @@
 # print(final)
 
 #6 Long-long Vowels
-# word = input("Gimme a word >> please >>")
-# word_list = list(word.lower())
-# long_word = []
-
-# long_vowels = {"aa" : "aaaaa", "ee" : "eeeee", "ii" : "iiiii", "oo" : "ooooo", "uu" : "uuuuu"}
-# for letter in word_list:
-#     if letter in long_vowels:
-#         letter = long_vowels[letter]
-#         long_word.append(letter)
-
-#     else: 
-#         long_word.append(letter)
-# final = ''.join(long_word)
-# print(final)
+# string_to_vowel_check = 'Good'
+# last_letter = ''
+# new_string = ''
+# for letter in string_to_vowel_check:
+#     is_vowel = False
+#     if letter == last_letter:
+#         if letter == 'a' or letter == 'A':
+#             is_vowel = True
+#         elif letter == 'e' or letter == 'E':
+#             is_vowel = True
+#         elif letter == 'i' or letter == 'I':
+#             is_vowel = True
+#         elif letter == 'o' or letter == 'O':
+#             is_vowel = True
+#         elif letter == 'u' or letter == 'U':
+#             is_vowel = True
+#     last_letter = letter
+#     if is_vowel == True:
+#         letter = letter*4
+#     new_string+= letter
+# print(new_string)
 
 #7 Caesar
 # def caesar_encrypt(realText, step):
