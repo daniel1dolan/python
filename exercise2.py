@@ -21,7 +21,17 @@
 #             working_list.append(sum1)
 #             working_list.append(sum2)
 #             result_list.append(working_list)
-# print(working_list)
+# print(result_list)
+
+#alt
+a = [[2, -2], [5, 3]]
+b = [[2, -2], [5, 3]]
+result = [[0, 0], [0, 0]]
+for i in range(len(a)):
+    for j in range(len(a[0])):
+        result[i][j] = a[i][j] + b[i][j]
+for r in result:
+    print(r)
 
 #3 Matrix Addition II
 # dim1 = [[2, -2, 3], [5, 3, 3]]
@@ -77,6 +87,7 @@
 #     if letter in long_vowels:
 #         letter = long_vowels[letter]
 #         long_word.append(letter)
+
 #     else: 
 #         long_word.append(letter)
 # final = ''.join(long_word)
@@ -112,12 +123,6 @@
 # print(code)
 # print()
 
-
-
-
-
-
-    
 
 
 
