@@ -24,14 +24,14 @@
 # print(result_list)
 
 #alt
-a = [[2, -2], [5, 3]]
-b = [[2, -2], [5, 3]]
-result = [[0, 0], [0, 0]]
-for i in range(len(a)):
-    for j in range(len(a[0])):
-        result[i][j] = a[i][j] + b[i][j]
-for r in result:
-    print(r)
+# a = [[2, -2], [5, 3]]
+# b = [[2, -2], [5, 3]]
+# result = [[0, 0], [0, 0]]
+# for i in range(len(a)):
+#     for j in range(len(a[0])):
+#         result[i][j] = a[i][j] + b[i][j]
+# for r in result:
+#     print(r)
 
 #3 Matrix Addition II
 # dim1 = [[2, -2, 3], [5, 3, 3]]
