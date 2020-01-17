@@ -6,6 +6,15 @@
 #     print(small)
 # smallest(liste)
 
+#alt no built-in function
+# liste = [7, 5, 2, 6, 1, 3]
+# def smallest_nobilt(myList):
+#     place_holder = myList[0]
+#     for num in myList:
+#         if num < place_holder:
+#             place_holder = num
+#     return place_holder
+
 #2 Largest Number
 # liste2 = [2, 5, 1, 6, 3, 5]
 # def largest(list_input):
@@ -17,12 +26,12 @@
 #3 Find shortest string
 # list_of_strings = ["this", "that", "seven", "banana", "california"]
 # def shortest(input):
-#     sharty = ""
+#     the_shortest = ""
 #     for i in input:
 #         length = len(i)
-#         if length > len(sharty):
-#             sharty = i
-#     return sharty
+#         if length > len(the_shortest):
+#             the_shortest = i
+#     return the_shortest
 # runner = shortest(list_of_strings)
 # print(runner)
 
