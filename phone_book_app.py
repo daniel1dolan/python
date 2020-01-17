@@ -1,4 +1,12 @@
 #phone book app
+import pickle
+import os.path 
+
+if os.path.isfile("phonebook.pickle"):
+    with open("phonebook.pickle", "rb") as fh:
+        phone_book = pickle.load(fh)
+else:
+    phone_book = {}
 def menu():
     print("Electric Phone Book")
     print("=" * 21)
@@ -8,7 +16,6 @@ def menu():
     print("4. List all entries")
     print("5. Quit")
 
-phone_book = {}
 user_input = "0"
 menu()
 while user_input != "5": 
@@ -44,6 +51,8 @@ while user_input != "5":
     else: 
         print("Please enter an option (1-5).")
         menu()
+with open("phonebook.pickle", "wb") as fh:
+    pickle.dump(phone_book, fh)
 print("Bye. Have a wonderful day.")
 
 
