@@ -8,7 +8,7 @@ def menu():
     print("4. List all entries")
     print("5. Quit")
 
-phone_book = {"name" : "number"}
+phone_book = {}
 user_input = "0"
 menu()
 while user_input != "5": 
@@ -25,9 +25,7 @@ while user_input != "5":
         name_addition = input("Name: ")
         addition_number = input("Phone Number: ")
         phone_book[name_addition] = addition_number
-        print()
         print(f"Entry stored for {name_addition}.")
-        print()
         menu()
     elif user_input == "3":
         del_name = input("Name: ")
