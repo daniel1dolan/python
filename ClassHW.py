@@ -17,7 +17,6 @@
 #         self.phone = phone
 #         self.friends = []
 #         self.greeting_count = 0
-#         self.unique_greetings = 0
 #     def greeting(self, other_person):
 #         print(f"Hello {other_person.name}, I am {self.name}!")
 #         self.greeting_count += 1
