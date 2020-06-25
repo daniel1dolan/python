@@ -1,3 +1,10 @@
+# my_list = ["dog", "cat", "bird"]
+
+# for (index, value) in my_list: 
+#     print(index, value)
+
+
+
 the_list = [1, 1, 2, 3, 4, 4]
 
 def removeDuplicates(list):
